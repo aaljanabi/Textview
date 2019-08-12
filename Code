@@ -1,0 +1,16 @@
+    <TextView
+        android:id="@+id/itemDescription"
+        android:text="@string/cheeseburger_description"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_toEndOf="@id/nameLabel"
+        android:layout_toRightOf="@id/nameLabel"
+        android:layout_toStartOf="@id/priceLabel"
+        android:layout_toLeftOf="@id/priceLabel"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"/>
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:maxLines="1"
